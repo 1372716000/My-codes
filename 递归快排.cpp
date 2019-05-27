@@ -1,12 +1,12 @@
 
-//µİ¹é¿ìÅÅ
+//é€’å½’å¿«æ’
 #include <stdio.h>
 #include<iostream>
 #include<algorithm>
 using namespace std;
 
 void qsort(int start, int end, int arr[]) {
-	if (start >= end)     //ÏÈ¼ì²é×óÓÒÌõ¼ş
+	if (start >= end)     //å…ˆæ£€æŸ¥å·¦å³æ¡ä»¶
 		return;
 	int pivot = start;
 	int pvalue = arr[pivot];
