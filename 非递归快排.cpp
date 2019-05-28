@@ -1,4 +1,4 @@
-//·Çµİ¹é¿ìÅÅ
+//éé€’å½’å¿«æ’
 #include<iostream>
 #include<stack>
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 int partition(int start,int end, int arr[])
 {
 	int i=start; int j=end; int pvalue=arr[start];
-	if(i>=j) return -1;  //½áÊøÁË ×îĞ¡µÄ³¤¶ÈÎªÒ»µÄpartÀ² 
+	if(i>=j) return -1;  //ç»“æŸäº† æœ€å°çš„é•¿åº¦ä¸ºä¸€çš„partå•¦ 
 	while(i<j){
 		while(i<j && arr[j]>=pvalue) j--;
 		if(i<j) arr[i++]=arr[j];
