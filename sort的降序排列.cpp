@@ -1,4 +1,4 @@
-//sortµÄ½µĞòÅÅÁĞ
+//sortçš„é™åºæ’åˆ—
 # include<stdio.h>
 #include<algorithm>
 #include<iostream>
@@ -21,7 +21,7 @@ int main(){
 //		}
 //	}
 	while(cin>>n){
-		for(int i=0;i<n;i++){   //ÅÅĞòÇ°n¸öÔªËØ 
+		for(int i=0;i<n;i++){   //æ’åºå‰nä¸ªå…ƒç´  
 		scanf("%d",&buf[i]);
 		}
 		sort(buf,buf+n,cmp);
